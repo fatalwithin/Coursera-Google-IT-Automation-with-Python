@@ -698,15 +698,19 @@ On Linux or MacOS, the worst kind of crash is called a Kernel Panic. On Windows,
 
 We called out that reading logs is super important. You should know how to read logs on the operating system that you're using. Here are some resources for this:
 
-[How to find logs on Windows 10 (Digital Masters Magazine)]: https://www.digitalmastersmag.com/magazine/tip-of-the-day-how-to-find-crash-logs-on-windows-10/
-[How to view the System Log on a Mac (How-to Geek)]: https://www.howtogeek.com/356942/how-to-view-the-system-log-on-a-mac/
-[How to check system logs on Linux (FOSS Linux)]: https://www.fosslinux.com/8984/how-to-check-system-logs-on-linux-complete-usage-guide.htm
+[How to find logs on Windows 10 (Digital Masters Magazine)](https://www.digitalmastersmag.com/magazine/tip-of-the-day-how-to-find-crash-logs-on-windows-10/)
+
+[How to view the System Log on a Mac (How-to Geek)](https://www.howtogeek.com/356942/how-to-view-the-system-log-on-a-mac/)
+
+[How to check system logs on Linux (FOSS Linux)](https://www.fosslinux.com/8984/how-to-check-system-logs-on-linux-complete-usage-guide.htm)
 
 You also need to be familiar with the tools available in your OS to diagnose problems. These are the tools we called out, but you don't need to limit yourself to them:
 
-[Process Monitor for Windows (Microsoft)]: https://docs.microsoft.com/en-us/sysinternals/downloads/procmon
-[Linux strace command tutorial for beginners (HowtoForge)]: https://www.howtoforge.com/linux-strace-command/
-[How to trace your system calls on Mac OS (/etc/notes)]: https://etcnotes.com/posts/system-call/
+[Process Monitor for Windows (Microsoft)](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon)
+
+[Linux strace command tutorial for beginners (HowtoForge)](https://www.howtoforge.com/linux-strace-command/)
+
+[How to trace your system calls on Mac OS (/etc/notes)](https://etcnotes.com/posts/system-call/)
 
 
 
