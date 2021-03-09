@@ -18,8 +18,8 @@
   - [HTTP GET and POST Methods](#http-get-and-post-methods)
   - [What is Django?](#what-is-django)
   - [Project Problem Statement](#project-problem-statement-1)
-    - [**Introduction**](#introduction)
-    - [**What you’ll do**](#what-youll-do)
+    - [Introduction](#introduction)
+    - [What you’ll do](#what-youll-do)
   - [Web server corpweb](#web-server-corpweb)
   - [Process text files and upload to running web server](#process-text-files-and-upload-to-running-web-server)
 - [Module 3: Sending Emails and Generating PDFs](#module-3-sending-emails-and-generating-pdfs)
@@ -31,8 +31,8 @@
   - [Adding Tables to our PDFs](#adding-tables-to-our-pdfs)
   - [Adding Graphics to our PDFs](#adding-graphics-to-our-pdfs)
   - [Project Problem Statement](#project-problem-statement-2)
-    - [**Introduction**](#introduction-1)
-    - [**What you’ll do**](#what-youll-do-1)
+    - [Introduction](#introduction-1)
+    - [What you’ll do](#what-youll-do-1)
   - [Sample report](#sample-report)
     - [Generate report](#generate-report)
   - [Sales summary](#sales-summary)
@@ -41,9 +41,9 @@
   - [Optional challenge](#optional-challenge)
 - [Module 4: Final Course Project](#module-4-final-course-project)
   - [Project Problem Statement](#project-problem-statement-3)
-  - [How to Approach the Problem](#how-to-approach-the-problem)
-  - [**Introduction**](#introduction-2)
-  - [**What you’ll do**](#what-youll-do-2)
+    - [How to Approach the Problem](#how-to-approach-the-problem)
+    - [Introduction](#introduction-2)
+    - [What you’ll do](#what-youll-do-2)
   - [Fetching supplier data](#fetching-supplier-data)
   - [Working with supplier images](#working-with-supplier-images)
   - [Uploading images to web server](#uploading-images-to-web-server)
@@ -1076,11 +1076,11 @@ Also, feel free to check out the resources that we pointed to as many times as y
 
 Good luck, you've got this!
 
-### **Introduction**
+### Introduction
 
 You’re working at a company that sells second-hand cars. Your company constantly collects feedback in the form of customer reviews. Your manager asks you to take those reviews (saved as .txt files) and display them on your company’s website. To do this, you’ll need to write a script to convert those .txt files and process them into Python dictionaries, then upload the data onto your company’s website (currently using Django).
 
-### **What you’ll do**
+### What you’ll do
 
 - Use the Python OS module to process a directory of text files 
 - Manage information stored in Python dictionaries
@@ -1607,11 +1607,11 @@ As we called out before, solving these problems can take some time, and that's o
 
 Good luck, you can totally do this!
 
-### **Introduction**
+### Introduction
 
 You work for a company that sells second hand cars. Management wants to get a summary of the amounts of vehicles that have been sold at the end of every month. The company already has a web service which serves sales data at the end of every month but management wants an email to be sent out with an attached PDF so that data is more easily readable.
 
-### **What you’ll do**
+### What you’ll do
 
 - Write a script that summarizes and processes sales data into different categories
 - Generate a PDF using Python
@@ -1897,7 +1897,7 @@ Hopefully this summary has helped you start thinking about how you’ll approach
 
 Up next, we'll give you a few tips that can help you along the way.
 
-## How to Approach the Problem
+### How to Approach the Problem
 
 ------
 
@@ -1909,7 +1909,7 @@ We're giving you a pretty big project to do at the end of this course -- but you
 
 **Use version control.** Check each part of your solution into version control as you complete it, so you can always roll back to a known version of your code if you make a mistake.
 
-***Review module documentation!\*** You are going to need to use these modules to complete the final project. Reading the documentation takes time, but as you become more familiar with the APIs provided by these modules, it could save you from writing a bunch of custom code that could have just been a call to a module function! Remember, we’ve covered these modules in previous lessons too, so feel free to go back and review them if you need a refresher!
+**Review module documentation!** You are going to need to use these modules to complete the final project. Reading the documentation takes time, but as you become more familiar with the APIs provided by these modules, it could save you from writing a bunch of custom code that could have just been a call to a module function! Remember, we’ve covered these modules in previous lessons too, so feel free to go back and review them if you need a refresher!
 
 - [Python Image Library (PIL)](https://pillow.readthedocs.io/) - [Tutorial](https://pillow.readthedocs.io/en/stable/handbook/tutorial.html)
 
@@ -1921,9 +1921,9 @@ We're giving you a pretty big project to do at the end of this course -- but you
 - [shutil](https://docs.python.org/3/library/shutil.html) (file operations)
 - [smtplib](https://docs.python.org/3/library/smtplib.html) (sending email)
 
-***Read the lab instructions carefully!\*** Following the instructions and implementing your solution to the specifications that you’re given are critical to completing the task, and to being accurately graded! 
+**Read the lab instructions carefully!** Following the instructions and implementing your solution to the specifications that you’re given are critical to completing the task, and to being accurately graded! 
 
-## **Introduction**
+### Introduction
 
 You work for an online fruits store, and you need to develop a system that will update the catalog information with data provided by your suppliers. The suppliers send the data as large images with an associated description of the products in two files (.TIF for the image and .txt for the description). The images need to be converted to smaller jpeg images and the text needs to be turned into an HTML file that shows the image and the product description. The contents of the HTML file need to be uploaded to a web service that is already running using Django. You also need to gather the name and weight of all fruits from the .txt files and use a Python request to upload it to your Django server.
 
@@ -1933,7 +1933,7 @@ Once the task is complete, the supplier should be notified with an email that in
 
 Finally, in parallel to the automation running, we want to check the health of the system and send an email if something goes wrong. 
 
-## **What you’ll do**
+### What you’ll do
 
 - Write a script that summarizes and processes sales data into different categories 
 - Generate a PDF using Python
